@@ -1,0 +1,185 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+/* body consists of only font */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+  display: block;
+}
+/* Title Section Starts */
+#title {
+  color: black;
+  text-align: left;
+}
+/* Title Section Ends */
+/* Navigation Starts */
+.navbar {
+  padding: 1% 4% 1% 4%;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 2%;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-colored-section{
+  background-color: #222831;
+  
+}
+.nav-link {
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Navigation Ends */
+
+/* About Starts */
+/* about section full row */
+#about-cards-section{
+  background-color: #eeeeee;
+  padding-top: 3%;
+}
+/* profile image card parent div of image div */
+.profile-image-card{
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 8%;
+}
+/* image div card  */
+.image-div{
+  background-color: #eeeeee;
+  height: 100%;
+  width: 60%;
+  margin: 0% auto ;
+  padding: 5% 7% 5% 7%;
+  border-radius: 10%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* profile image consists image width and its padding bottom */
+.profile-image{
+  width: 80%;
+  padding-bottom: 6%;
+} 
+/* image div child name heading */
+.name-incard{
+  padding-top: 1%;
+  padding-bottom: 24%;
+  margin: 0% auto;
+  font-size: 220%;
+  font-weight: bold;
+}
+/* about buttons */
+/* buttons */
+.resume-button {
+  font-family: 'times new roman';
+  color: #eeeeee !important;
+  font-size: 150%;
+  /* text-shadow: #7CACDE; */
+  /* box-shadow: #BEE2F9; */
+  padding: 4% 22%;
+  border-radius: 25px;
+  border: 2px solid #222831;
+  background: #222831;
+  margin-bottom: 8%;
+}
+.resume-button:hover {
+  color: #222831 !important;
+  background: #eeeeee;
+  transition: .5s;
+  cursor: pointer;
+}
+.contact-button {
+  font-family: 'times new roman';
+  color: #000000 !important;
+  font-size: 150%;
+  /* text-shadow: #7CACDE; */
+  /* box-shadow: #BEE2F9; */
+  padding: 4% 23%;
+  border-radius: 25px;
+  border: 2px solid #000000;
+  background: #FFFFFF;
+}
+.contact-button:hover {
+  color: #eeeeee !important;
+  background: #222831;
+  transition: .5s;
+  border: 2px solid #222831;
+  cursor: pointer;
+}
+.buttons-div{
+  width: 70%;
+}
+/* About Ends */
+
+/* Footer Starts */
+.icon-social-child{
+  width: 40%;
+}
+.footer-row{
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.email-row{
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: center;
+}
+.mail-img{
+  width: 70%;
+  margin-left: 18%;
+}
+.social-row{
+  padding-top: 0;
+  padding-bottom: 4%;
+  display: flex;
+  justify-content: center;
+}
+.copyright-row{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: center;
+}
+footer{
+  background-color: #eeeeee;
+}
+/* Footer Ends */
+
+
+
+
+
+
+
+
+/* Responsiveness */
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .about-desc-card{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+  #about-cards-section{
+    padding-top: 8%;
+  }
+  p{
+    text-align: justify;
+  }
+}
+
