@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+  /* body consists of only font */
+  body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+  }
+  .container-fluid{
+    display: block;
+  }
+  /* Title Section Starts */
+  #title {
+    color: black;
+    text-align: left;
+  }
+  /* Title Section Ends */
+  /* Navigation Starts */
+  .navbar {
+    padding: 1% 4% 1% 4%;
+  }
+  
+  .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 2%;
+  }
+  .nav-item {
+    padding: 0 18px;
+  }
+  .nav-colored-section{
+    background-color: #222831;
+    
+  }
+  .nav-link {
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  /* Navigation Ends */
+.gif{
+    display: block;
+    margin: 0 auto;
+    width: 17%;
+    padding: 1.5% 0 0 0;
+
+}
+
+
+  
+/* Footer Starts */
+.icon-social-child{
+    width: 40%;
+  }
+  .footer-row{
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+  .email-row{
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+  }
+  .mail-img{
+    width: 70%;
+    margin-left: 18%;
+  }
+  .social-row{
+    padding-top: 0;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+  }
+  .copyright-row{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+  }
+  /* Footer Ends */
+  
+/* Responsiveness */
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+    footer{
+        padding-bottom: 5%;
+    }
+    .gif{
+        width: 50%;
+    }
+  }
+  
+  
